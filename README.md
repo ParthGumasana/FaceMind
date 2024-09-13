@@ -1,22 +1,35 @@
-# FaceMind
-Emotion Recognition based on Deep Learning explores AI models that interpret human emotions from facial expressions, voice, and text. By investigating neural networks, training methods, and datasets, the research aims for real-time, accurate emotion recognition, with applications in mental health, human-computer interaction.
+Emotion Recognition Based on Deep Learning
+This project explores the intersection of Artificial Intelligence (AI) and human emotions through deep learning models. The aim is to accurately interpret human emotions from facial expressions, voice tonality, and text sentiment analysis using cutting-edge neural network architectures.
+
+Overview
+This project focuses on:
+
+Real-time Emotion Recognition
+Investigating Deep Learning architectures like CNNs and LLMs
+Applications in mental health, human-computer interaction, and consumer behavior insights
 Software Requirements
-  OS: Windows
-  Programming Language: Python
-  ML Libraries: Tensorflow, Pytorch
-  Deep learning Framework
-  Development Environment
+Operating System: Windows
+Programming Language: Python
+Machine Learning Libraries: TensorFlow, PyTorch
+Deep Learning Framework: Custom-built
 Hardware Requirements
-  Processor: Intel i5 or AMD Ryzen 5
-  RAM: 4 GB 
-  Graphics: Nvidia 1650 or RX 5500M
-  Storage: 256 GB 
-  Camera/Webcam: 720p 
-The strategy involves combining deep learning techniques and MMPI test to yield better emotion recognition.
-The Key steps involved are:
-  Data Collection: Gather diverse datasets containing labeled binary data from the questionnaire. 
-  Model Selection: Choose appropriate deep learning architectures (e.g., CNNs , LLM’s ) for each data modality.
-  Preprocessing and Feature Extraction: Apply preprocessing techniques and feature extraction to convert raw data into suitable input formats.
-  Training and Evaluation: Train models on the prepared data, fine-tuning hyperparameters, and evaluate performance.
+Processor: Intel i5 / AMD Ryzen 5
+RAM: 4 GB
+Graphics: Nvidia 1650 / RX 5500M
+Storage: 256 GB SSD
+Camera/Webcam: 720p
+Key Steps Involved
+Data Collection
+Collect diverse datasets containing labeled binary data from questionnaires (e.g., MMPI test) and real-world emotion data (facial, voice, and text).
 
+Model Selection
+Select appropriate deep learning architectures, such as CNNs and LLMs, for processing each data modality.
 
+Preprocessing & Feature Extraction
+Apply preprocessing techniques to clean raw data and extract features suitable for model input.
+
+Training & Evaluation
+Train the models on preprocessed data, fine-tune hyperparameters, and evaluate the model's performance based on accuracy and speed.
+
+Strategy
+Combining deep learning techniques with the MMPI test enhances the accuracy and effectiveness of emotion recognition models, leading to better real-world applications and insights.
