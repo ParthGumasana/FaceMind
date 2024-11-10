@@ -1,35 +1,33 @@
-Emotion Recognition Based on Deep Learning
+# Emotion Recognition Based on Deep Learning
+
 This project explores the intersection of Artificial Intelligence (AI) and human emotions through deep learning models. The aim is to accurately interpret human emotions from facial expressions, voice tonality, and text sentiment analysis using cutting-edge neural network architectures.
 
-Overview
+## Project Overview
+
 This project focuses on:
 
-Real-time Emotion Recognition
-Investigating Deep Learning architectures like CNNs and LLMs
-Applications in mental health, human-computer interaction, and consumer behavior insights
-Software Requirements
-Operating System: Windows
-Programming Language: Python
-Machine Learning Libraries: TensorFlow, PyTorch
-Deep Learning Framework: Custom-built
-Hardware Requirements
-Processor: Intel i5 / AMD Ryzen 5
-RAM: 4 GB
-Graphics: Nvidia 1650 / RX 5500M
-Storage: 256 GB SSD
-Camera/Webcam: 720p
-Key Steps Involved
-Data Collection
-Collect diverse datasets containing labeled binary data from questionnaires (e.g., MMPI test) and real-world emotion data (facial, voice, and text).
+- **Real-time Emotion Recognition**: Implementing models to recognize emotions in real time from facial expressions, voice data, and text sentiment.
+- **Deep Learning Architectures**: Investigating Convolutional Neural Networks (CNNs) for facial recognition, Long Short-Term Memory (LSTM) networks for voice data, and transformer models like BERT for text analysis.
+- **Applications**: This system has potential applications in mental health, human-computer interaction, and consumer behavior insights.
 
-Model Selection
-Select appropriate deep learning architectures, such as CNNs and LLMs, for processing each data modality.
+## Requirements
 
-Preprocessing & Feature Extraction
-Apply preprocessing techniques to clean raw data and extract features suitable for model input.
+### Operating System:
+- Windows
 
-Training & Evaluation
-Train the models on preprocessed data, fine-tune hyperparameters, and evaluate the model's performance based on accuracy and speed.
+### Software Requirements:
+- Python 3.x
+- Machine Learning Libraries:
+  - TensorFlow
+  - PyTorch
+  - Scikit-learn
+- Deep Learning Framework:
+  - Keras
+  - Custom-built neural network layers
 
-Strategy
-Combining deep learning techniques with the MMPI test enhances the accuracy and effectiveness of emotion recognition models, leading to better real-world applications and insights.
+### Hardware Requirements:
+- Processor: Intel i5 / AMD Ryzen 5 or higher
+- RAM: 4 GB or higher
+- Graphics: Nvidia 1650 / RX 5500M or higher
+- Storage: 256 GB SSD
+- Camera/Webcam: 720p (for real-time emotion recognition)
